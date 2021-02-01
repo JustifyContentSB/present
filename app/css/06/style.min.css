@@ -1,0 +1,245 @@
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.content-box-component {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+p {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@font-face {
+  font-family: 'Stem';
+  src: url("../../fonts/stem/Stem-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/stem/Stem-Light.woff2") format("woff2"), url("../../fonts/stem/Stem-Light.woff") format("woff"), url("../../fonts/stem/Stem-Light.ttf") format("truetype"), url("../../fonts/stem/Stem-Light.svg") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Stem';
+  src: url("../../fonts/stem/Stem-SemiLight.eot?#iefix") format("embedded-opentype"), url("../../fonts/stem/Stem-SemiLight.woff2") format("woff2"), url("../../fonts/stem/Stem-SemiLight.woff") format("woff"), url("../../fonts/stem/Stem-SemiLight.ttf") format("truetype"), url("../../fonts/stem/Stem-SemiLight.svg") format("svg");
+  font-weight: 350;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Stem';
+  src: url("../../fonts/stem/Stem-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/stem/Stem-Regular.woff2") format("woff2"), url("../../fonts/stem/Stem-Regular.woff") format("woff"), url("../../fonts/stem/Stem-Regular.ttf") format("truetype"), url("../../fonts/stem/Stem-Regular.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Stem';
+  src: url("../../fonts/stem/Stem-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/stem/Stem-Medium.woff2") format("woff2"), url("../../fonts/stem/Stem-Medium.woff") format("woff"), url("../../fonts/stem/Stem-Medium.ttf") format("truetype"), url("../../fonts/stem/Stem-Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Stem';
+  src: url("../../fonts/stem/Stem-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/stem/Stem-Bold.woff2") format("woff2"), url("../../fonts/stem/Stem-Bold.woff") format("woff"), url("../../fonts/stem/Stem-Bold.ttf") format("truetype"), url("../../fonts/stem/Stem-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  min-width: 320px;
+  font-family: 'Stem', sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 95px 0 60px;
+}
+
+.header__title {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.header__info {
+  margin-top: 20px;
+}
+
+.header__street {
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 40px;
+  letter-spacing: 0.1rem;
+}
+
+.header__zone {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 40px;
+  letter-spacing: 0.1rem;
+  color: #AFAFAF;
+}
+
+.img {
+  width: 100%;
+}
+
+.info {
+  letter-spacing: 0.1rem;
+}
+
+.info__left-wrapper {
+  width: 840px;
+  position: relative;
+  top: -330px;
+}
+
+.info__left-title {
+  padding: 0 20px;
+  padding-top: 30px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+}
+
+.info__left-text {
+  padding: 0 20px;
+  padding-top: 50px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 41px;
+}
+
+.info__right-wrapper {
+  width: 800px;
+  padding-top: 125px;
+  padding-left: 110px;
+}
+
+.info__right-order {
+  white-space: nowrap;
+}
+
+.info__right-order td {
+  width: 338px;
+  max-width: 338px;
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 51px;
+}
+
+.info__right-order td:first-child {
+  font-weight: 300;
+}
+
+.info__right-order td:nth-child(2) {
+  padding-left: 5px;
+}
+
+.info__right-num {
+  padding-top: 50px;
+  font-weight: 350;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+.info__right-price {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 67px;
+}
+
+.info__right-contact {
+  padding-top: 55px;
+}
+
+.info__right-show {
+  display: block;
+  width: 100%;
+  padding: 22px 5px;
+  background: #A79078;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 30px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.info__right-or {
+  padding: 18px 0;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 41px;
+}
+
+.info__right-tel {
+  font-weight: 300;
+  font-size: 36.95px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.footer {
+  width: 100%;
+  padding: 60px 0;
+  border-top: 1px solid #DFDFDF;
+}
+
+.footer__slogan {
+  font-weight: 300;
+  font-size: 31px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #7E7E7E;
+}
+
+.header {
+  padding: 95px 0;
+}
+
+.info__right-order td:first-child {
+  width: 360px;
+  max-width: 360px;
+}
+
+.info__right-order td:nth-child(2) {
+  width: auto;
+}

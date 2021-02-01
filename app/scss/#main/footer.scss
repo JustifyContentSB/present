@@ -1,0 +1,12 @@
+.footer {
+	width: 100%;
+	padding: 60px 0;
+	border-top: 1px solid #DFDFDF;
+	&__slogan {
+		font-weight: 300;
+		font-size: 31px;
+		line-height: 40px;
+		text-transform: uppercase;
+		color: #7E7E7E;
+	}
+}

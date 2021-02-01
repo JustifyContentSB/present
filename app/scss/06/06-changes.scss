@@ -1,0 +1,19 @@
+.header {
+	padding: 95px 0;
+}
+
+.info {
+	&__right {
+		&-order {
+			td {
+				&:first-child {
+					width: 360px;
+					max-width: 360px;
+				}
+				&:nth-child(2) {
+					width: auto;
+				}
+			}
+		}
+	}
+}

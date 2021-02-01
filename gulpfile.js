@@ -17,11 +17,11 @@ gulp.task('script', function() {
 })
 
 gulp.task('scss', function() {
-    return gulp.src('app/scss/index/style.scss')
-    .pipe(sass({outputStyle: 'compressed'}))
+    return gulp.src('app/scss/01/style.scss')
+    .pipe(sass({outputStyle: 'expanded'}))
     .pipe(autoprefixer('last 2 versions'))
     .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest('app/css/index'))
+    .pipe(gulp.dest('app/css/01'))
     .pipe(browserSync.reload({stream: true}))
 });
 
@@ -29,7 +29,7 @@ gulp.task('browserSync', function() {
     browserSync.init({
         server: {
             baseDir: "app",
-            index: 'index.html'
+            index: '01.html'
         }
     });
 });

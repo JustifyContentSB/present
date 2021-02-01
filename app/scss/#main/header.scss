@@ -1,0 +1,25 @@
+.header {
+	padding: 95px 0 60px;
+	&__title {
+		font-weight: bold;
+		font-size: 56px;
+		line-height: 56px;
+		color: rgba(#000000, 0.9);
+	}
+	&__info {
+		margin-top: 20px;
+	}
+	&__street {
+		font-weight: 500;
+		font-size: 33px;
+		line-height: 40px;
+		letter-spacing: 0.1rem;
+	}
+	&__zone {
+		font-weight: 500;
+		font-size: 26px;
+		line-height: 40px;
+		letter-spacing: 0.1rem;
+		color: #AFAFAF;
+	}
+}

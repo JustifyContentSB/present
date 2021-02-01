@@ -1,0 +1,30 @@
+.features {
+	padding-top: 170px;
+	letter-spacing: 0.1rem;
+	&__item {
+		padding-bottom: 90px;
+	}
+	&__title {
+		padding-bottom: 10px;
+		font-weight: 700;
+		font-size: 29px;
+		line-height: 29px;
+		text-transform: uppercase;
+		position: relative;
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 81px;
+			height: 3px;
+			background: #000;
+		}
+	}
+	&__text {
+		padding-top: 19px;
+		font-weight: 300;
+		font-size: 26px;
+		line-height: 33px;
+	}
+}
