@@ -1,10 +1,10 @@
 .cover {
 	width: 100%;
 	padding-left: 245px;
-	min-width: 1900px;
-	min-height: 2718px;
+	min-width: 100%;
+	min-height: 100vh;
 	background: url('../../images/01.jpg');
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	&__top {
 		width: 100%;
@@ -33,7 +33,7 @@
 			color: #AFAFAF;
 		}
 	}
-	&__pent {
+	&__title {
 		padding-bottom: 400px;
 		font-weight: 700;
 		font-size: 162px;

@@ -1,0 +1,12 @@
+.text {
+    padding: 100px;
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: justify;
+	letter-spacing: 0.1rem;
+	&--barkli {
+		padding-bottom: 412px;
+		padding-left: 136px;
+	}
+}

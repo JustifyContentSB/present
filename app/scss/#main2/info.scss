@@ -1,0 +1,23 @@
+.info {
+	padding-bottom: 200px;
+	&--barkli {
+		padding-bottom: 0;
+		padding-left: 36px;
+	}
+	&__td {
+		width: 50%;
+	}
+	&__left {
+		padding: 0 100px;
+		font-weight: 400;
+		font-size: 25px;
+		line-height: 52px;
+		letter-spacing: 0.1rem;
+		&-title {
+			font-weight: 300;
+		}
+		td {
+			width: 375px;
+		}
+	}
+}

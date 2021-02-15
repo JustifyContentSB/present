@@ -1,0 +1,39 @@
+.price {
+	padding: 75px;
+	margin-right: 100px;
+	background: #F2F2F2;
+	&__size {
+		padding-top: 60px;
+		font-size: 38.0645px;
+		line-height: 49px;
+		letter-spacing: 0.1rem;
+	}
+	&__num {
+		padding-top: 72px;
+		font-weight: 350;
+		font-size: 33px;
+		line-height: 40px;
+		letter-spacing: 0.1rem;
+	}
+	&__money {
+		padding: 13px 0 20px;
+		font-weight: bold;
+		font-size: 80px;
+		line-height: 104px;
+		letter-spacing: 0.1rem;
+		&-from {
+			padding-top: 22px;
+			font-weight: 700;
+			font-size: 40px;
+			line-height: 52px;
+			letter-spacing: 0.1rem;
+		}
+	}
+	&__meter {
+		font-weight: 350;
+		font-size: 30px;
+		line-height: 32px;
+		letter-spacing: 0.1rem;
+		color: #686868;
+	}
+}

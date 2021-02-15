@@ -1,0 +1,26 @@
+.about {
+	padding: 105px 120px 100px; 
+	&__title {
+		font-weight: bold;
+		font-size: 59px;
+		line-height: 72px;
+		letter-spacing: 0.1rem;
+	}
+	&__address {
+		padding-top: 43px;
+		font-weight: 500;
+		font-size: 33px;
+		line-height: 40px;
+		letter-spacing: 0.1rem;
+	}
+	&__qr {
+		width: 193px;
+		padding-top: 30px;
+	}
+	&__right {
+		padding-left: 80px;
+		.about__address {
+			padding-top: 10px;
+		}
+	}
+}

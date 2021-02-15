@@ -1,0 +1,87 @@
+.img {
+	padding: 0 100px;
+	&__td {
+		width: 100%;
+		height: 967px;
+		background: url('../../images/obj1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	&--plan {
+		padding-bottom: 400px;
+	}
+	&__plan {
+		width: 100%;
+		height: 1362px;
+		background: url('../../images/plan.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	&--pent {
+		padding-top: 118px;
+		padding-bottom: 242px;
+	}
+	&__pent {
+		&-one {
+			width: 100%;
+			height: 967px;
+			margin-bottom: 70px;
+			background: url('../../images/obj2.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+		&-two {
+			width: 100%;
+			height: 967px;
+			background: url('../../images/obj3.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+		&-space {
+			width: 100%;
+			height: 70px;
+		}
+	}
+	&__barkli {
+		width: 100%;
+		height: 967px;
+		background: url('../../images/obj4.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center right;
+	}
+	&__map {
+		width: 100%;
+		height: 967px;
+		background: url('../../images/obj-map.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center right;
+	}
+	&__jk {
+		&-one {
+			width: 100%;
+			height: 800px;
+			background: url("/pdf/images/jk2.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: top center;
+		}
+		&-two {
+			width: 100%;
+			height: 800px;
+			background: url("/pdf/images/jk3.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: bottom center;
+		}
+		&-space {
+			width: 100%;
+			height: 70px;
+		}
+	}
+}

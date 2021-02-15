@@ -1,0 +1,50 @@
+.man {
+	padding: 200px 100px;
+	&__img {
+		width: 524px;
+		height: 765px;
+	}
+	&__info {
+		padding-left: 110px;
+	}
+	&__name {
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 40px;
+		line-height: 52px;
+		letter-spacing: 0.1rem;
+		&-two {
+			font-size: 30px;
+			line-height: 50px;
+			letter-spacing: 0.1rem;
+		}
+	}
+	&__text {
+		padding-top: 30px;
+		font-weight: 300;
+		font-size: 30px;
+		line-height: 50px;
+		letter-spacing: 0.1rem;
+		&--thanks {
+			font-weight: 500;
+		}
+	}
+	.man__tel {
+		padding-top: 70px;
+		font-weight: 300;
+		font-size: 54px;
+		line-height: 70px;
+		text-transform: uppercase;
+	}
+	&__about {
+		padding-top: 16px;
+		font-weight: 350;
+		font-size: 22px;
+		line-height: 34px;
+		letter-spacing: 0.1rem;
+		a {
+			text-decoration: underline;
+			font-weight: 700;
+		}
+	}
+}

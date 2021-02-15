@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/obj4/style.min.css">
+	<title>Объект 1</title>
+	<style>
+		*::before {-webkit-box-sizing:inherit;box-sizing:inherit}
+		*::after {-webkit-box-sizing:inherit;box-sizing:inherit}
+		.cover__top::after {content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:#fff}
+		@font-face {
+		  font-family: 'Stem';
+		  src: url("fonts/stem/Stem-Light.eot?#iefix") format("embedded-opentype"), url("fonts/stem/Stem-Light.woff2") format("woff2"), url("fonts/stem/Stem-Light.woff") format("woff"), url("fonts/stem/Stem-Light.ttf") format("truetype"), url("fonts/stem/Stem-Light.svg") format("svg");
+		  font-weight: 300;
+		  font-style: normal;
+		  font-display: swap;
+		}
+
+		@font-face {
+		  font-family: 'Stem';
+		  src: url("fonts/stem/Stem-SemiLight.eot?#iefix") format("embedded-opentype"), url("fonts/stem/Stem-SemiLight.woff2") format("woff2"), url("fonts/stem/Stem-SemiLight.woff") format("woff"), url("fonts/stem/Stem-SemiLight.ttf") format("truetype"), url("fonts/stem/Stem-SemiLight.svg") format("svg");
+		  font-weight: 350;
+		  font-style: normal;
+		  font-display: swap;
+		}
+
+		@font-face {
+		  font-family: 'Stem';
+		  src: url("fonts/stem/Stem-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/stem/Stem-Regular.woff2") format("woff2"), url("fonts/stem/Stem-Regular.woff") format("woff"), url("fonts/stem/Stem-Regular.ttf") format("truetype"), url("fonts/stem/Stem-Regular.svg") format("svg");
+		  font-weight: 400;
+		  font-style: normal;
+		  font-display: swap;
+		}
+
+		@font-face {
+		  font-family: 'Stem';
+		  src: url("fonts/stem/Stem-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/stem/Stem-Medium.woff2") format("woff2"), url("fonts/stem/Stem-Medium.woff") format("woff"), url("fonts/stem/Stem-Medium.ttf") format("truetype"), url("fonts/stem/Stem-Medium.svg") format("svg");
+		  font-weight: 500;
+		  font-style: normal;
+		  font-display: swap;
+		}
+
+		@font-face {
+		  font-family: 'Stem';
+		  src: url("fonts/stem/Stem-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/stem/Stem-Bold.woff2") format("woff2"), url("fonts/stem/Stem-Bold.woff") format("woff"), url("fonts/stem/Stem-Bold.ttf") format("truetype"), url("fonts/stem/Stem-Bold.svg") format("svg");
+		  font-weight: 700;
+		  font-style: normal;
+		  font-display: swap;
+		}
+
+		img {
+		  display: block;
+		  max-width: 100%;
+		  height: auto;
+		}
+		body {
+		  font-family: 'Stem', sans-serif;
+		  margin: 0;
+		  letter-spacing: 0.1rem;
+		}
+
+		a {
+			text-decoration: none;
+			color: inherit;
+		}			
+	</style>
+</head>
+<body> 
+	
+	<table class="wrapper" cellpadding="0" cellspacing="0" width="1900" align="center">
+		<tbody>
+			<tr>
+				<td>
+					<table class="header" cellpadding="0" cellspacing="0" width="1900" align="center">
+						<tbody>
+							<tr>
+								<td class="header__logo"  align="left" cellpadding="0" cellspacing="0"><span class="header__logo-pent">PENTHOUSE</span> <span class="header__logo-moscow">.moscow</span></td>
+								<td class="header__tel" cellpadding="0" cellspacing="0" align="right">+7 495 120-11-00</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="about" cellpadding="0" cellspacing="0" width="1900" align="left">
+						<tbody>
+							<tr>
+								<td class="about__qr" valign="top"><img src="images/qr.svg" alt="qr" width="193" height="193"></td>
+								<td class="about__right" valign="top">
+									<table>
+										<tbody>
+											<tr><td><h1 class="about__title">ЖК "БАРКЛИ ГАЛЕРИ"</h1></td></tr>
+											<tr><td class="about__address">Москва, ул. Новый Арбат, 46</td></tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="img" cellpadding="0" cellspacing="0" width="1900" align="center">
+						<tbody>
+							<tr>
+								<td class="img__barkli"></td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="type" cellpadding="0" cellspacing="0" width="900" align="left">
+						<tbody>
+							<tr>
+								<td class="type__title">С камином</td>
+								<td class="type__space"></td>
+								<td class="type__title">Москва-Сити</td>
+								<td class="type__space"></td>
+								<td class="type__title">Вид на парк</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="info info--barkli" cellpadding="0" cellspacing="0" width="1900" align="left">
+						<tbody>
+							<tr>
+								<td class="info__td" align="left">
+									<table class="info__left" cellpadding="0" cellspacing="0" align="left" width="650">
+										<tbody>
+											<tr><td class="info__left-title">Класс</td><td>Клубный дом</td></tr>
+											<tr><td class="info__left-title">Готовность</td><td>Сдача в 2020</td></tr>
+											<tr><td class="info__left-title">Инфраструктура</td><td>Бассейн, парковая зона</td></tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="text text--barkli">
+						<tbody>
+							<tr>
+								<td>Пентхаус на последнем этаже известного дома купца Филатова — элитный жилой дом, известный москвичам как «Дом с рюмкой», находится в начале улицы Остоженка.
+								В квартире высокие потолки — 3,4 метра, удобная планировка: светлая гостиная с тремя окнами и видом на Кремль.</td>
+							</tr>
+						</tbody>
+					</table>	
+					<table class="footer" cellpadding="0" cellspacing="0" width="1900" align="center">
+						<tbody>
+							<tr>
+								<td class="footer__slogan" cellpadding="0" cellspacing="0" align="left">Быть особенным - быть собой.</td>
+								<td class="footer__logo" cellpadding="0" cellspacing="0" align="right"><img src="/pdf/images/logo.svg" width="444"></td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>		
+	</table>
+
+</body>
+</html>

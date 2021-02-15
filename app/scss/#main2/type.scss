@@ -1,0 +1,16 @@
+.type {
+	padding: 50px 120px 66px;
+	font-weight: 350;
+	font-size: 21px;
+	line-height: 27px;
+	letter-spacing: 0.1rem;
+	&__title {
+		width: 200px;
+		padding: 9px 27px;
+		margin-right: 30px;
+		border: 1px solid #E6E6E6;
+	}
+	&__space {
+		width: 30px;
+	}
+}

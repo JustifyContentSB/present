@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/obj1/style.min.css">
+	<title>Объект 1</title>
+	<style>
+		*::before {-webkit-box-sizing:inherit;box-sizing:inherit}
+		*::after {-webkit-box-sizing:inherit;box-sizing:inherit}
+		.cover__top::after {content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:#fff}
+		@font-face {
+		  font-family: 'Stem';
+		  src: url("fonts/stem/Stem-Light.eot?#iefix") format("embedded-opentype"), url("fonts/stem/Stem-Light.woff2") format("woff2"), url("fonts/stem/Stem-Light.woff") format("woff"), url("fonts/stem/Stem-Light.ttf") format("truetype"), url("fonts/stem/Stem-Light.svg") format("svg");
+		  font-weight: 300;
+		  font-style: normal;
+		  font-display: swap;
+		}
+
+		@font-face {
+		  font-family: 'Stem';
+		  src: url("fonts/stem/Stem-SemiLight.eot?#iefix") format("embedded-opentype"), url("fonts/stem/Stem-SemiLight.woff2") format("woff2"), url("fonts/stem/Stem-SemiLight.woff") format("woff"), url("fonts/stem/Stem-SemiLight.ttf") format("truetype"), url("fonts/stem/Stem-SemiLight.svg") format("svg");
+		  font-weight: 350;
+		  font-style: normal;
+		  font-display: swap;
+		}
+
+		@font-face {
+		  font-family: 'Stem';
+		  src: url("fonts/stem/Stem-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/stem/Stem-Regular.woff2") format("woff2"), url("fonts/stem/Stem-Regular.woff") format("woff"), url("fonts/stem/Stem-Regular.ttf") format("truetype"), url("fonts/stem/Stem-Regular.svg") format("svg");
+		  font-weight: 400;
+		  font-style: normal;
+		  font-display: swap;
+		}
+
+		@font-face {
+		  font-family: 'Stem';
+		  src: url("fonts/stem/Stem-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/stem/Stem-Medium.woff2") format("woff2"), url("fonts/stem/Stem-Medium.woff") format("woff"), url("fonts/stem/Stem-Medium.ttf") format("truetype"), url("fonts/stem/Stem-Medium.svg") format("svg");
+		  font-weight: 500;
+		  font-style: normal;
+		  font-display: swap;
+		}
+
+		@font-face {
+		  font-family: 'Stem';
+		  src: url("fonts/stem/Stem-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/stem/Stem-Bold.woff2") format("woff2"), url("fonts/stem/Stem-Bold.woff") format("woff"), url("fonts/stem/Stem-Bold.ttf") format("truetype"), url("fonts/stem/Stem-Bold.svg") format("svg");
+		  font-weight: 700;
+		  font-style: normal;
+		  font-display: swap;
+		}
+
+		img {
+		  display: block;
+		  max-width: 100%;
+		  height: auto;
+		}
+		body {
+		  font-family: 'Stem', sans-serif;
+		  margin: 0;
+		  letter-spacing: 0.1rem;
+		}
+
+		a {
+			text-decoration: none;
+			color: inherit;
+		}			
+		.header {
+  width: 100%;
+  padding: 50px 100px;
+  border-bottom: 1px solid #DFDFDF;
+}
+
+.header__logo {
+  width: 50%;
+}
+
+.header__logo-pent {
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 80px;
+}
+
+.header__logo-moscow {
+  margin-left: 10px;
+  font-weight: 350;
+  font-size: 49px;
+  line-height: 64px;
+  color: #AFAFAF;
+}
+
+.header__tel {
+  width: 50%;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 54px;
+}
+
+.about {
+  padding: 105px 120px 100px;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 59px;
+  line-height: 72px;
+  letter-spacing: 0.1rem;
+}
+
+.about__address {
+  padding-top: 43px;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 40px;
+  letter-spacing: 0.1rem;
+}
+
+.about__qr {
+  width: 193px;
+  padding-top: 30px;
+}
+
+.about__right {
+  padding-left: 80px;
+}
+
+.about__right .about__address {
+  padding-top: 10px;
+}
+
+.img {
+  padding: 0 100px;
+}
+
+.img__td {
+  width: 100%;
+  height: 967px;
+  background: url("../../images/obj1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img--plan {
+  padding-bottom: 400px;
+}
+
+.img__plan {
+  width: 100%;
+  height: 1362px;
+  background: url("../../images/plan.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img--pent {
+  padding-top: 118px;
+  padding-bottom: 242px;
+}
+
+.img__pent-one {
+  width: 100%;
+  height: 967px;
+  margin-bottom: 70px;
+  background: url("../../images/obj2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img__pent-two {
+  width: 100%;
+  height: 967px;
+  background: url("../../images/obj3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img__pent-space {
+  width: 100%;
+  height: 70px;
+}
+
+.img__barkli {
+  width: 100%;
+  height: 967px;
+  background: url("../../images/obj4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+}
+
+.img__map {
+  width: 100%;
+  height: 967px;
+  background: url("../../images/obj-map.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+}
+
+.type {
+  padding: 50px 120px 66px;
+  font-weight: 350;
+  font-size: 21px;
+  line-height: 27px;
+  letter-spacing: 0.1rem;
+}
+
+.type__title {
+  width: 200px;
+  padding: 9px 27px;
+  margin-right: 30px;
+  border: 1px solid #E6E6E6;
+}
+
+.type__space {
+  width: 30px;
+}
+
+.info {
+  padding-bottom: 200px;
+}
+
+.info--barkli {
+  padding-bottom: 0;
+  padding-left: 36px;
+}
+
+.info__td {
+  width: 50%;
+}
+
+.info__left {
+  padding: 0 100px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 52px;
+  letter-spacing: 0.1rem;
+}
+
+.info__left-title {
+  font-weight: 300;
+}
+
+.info__left td {
+  width: 375px;
+}
+
+.price {
+  padding: 75px;
+  margin-right: 100px;
+  background: #F2F2F2;
+}
+
+.price__size {
+  padding-top: 60px;
+  font-size: 38.0645px;
+  line-height: 49px;
+  letter-spacing: 0.1rem;
+}
+
+.price__num {
+  padding-top: 72px;
+  font-weight: 350;
+  font-size: 33px;
+  line-height: 40px;
+  letter-spacing: 0.1rem;
+}
+
+.price__money {
+  padding: 13px 0 20px;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 104px;
+  letter-spacing: 0.1rem;
+}
+
+.price__money-from {
+  padding-top: 22px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.1rem;
+}
+
+.price__meter {
+  font-weight: 350;
+  font-size: 30px;
+  line-height: 32px;
+  letter-spacing: 0.1rem;
+  color: #686868;
+}
+
+.footer {
+  padding: 60px 100px;
+  border-top: 1px solid #DFDFDF;
+}
+
+.footer__slogan {
+  width: 50%;
+  font-weight: 300;
+  font-size: 31px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #7E7E7E;
+}
+
+.footer__logo {
+  width: 50%;
+}
+
+	</style>
+</head>
+<body> 
+	
+	<table class="wrapper" cellpadding="0" cellspacing="0" width="1900" align="center">
+		<tbody>
+			<tr>
+				<td>
+					<table class="header" cellpadding="0" cellspacing="0" width="1900" align="center">
+						<tbody>
+							<tr>
+								<td class="header__logo"  align="left" cellpadding="0" cellspacing="0"><span class="header__logo-pent">PENTHOUSE</span> <span class="header__logo-moscow">.moscow</span></td>
+								<td class="header__tel" cellpadding="0" cellspacing="0" align="right">+7 495 120-11-00</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="about" cellpadding="0" cellspacing="0" width="1900" align="center">
+						<tbody>
+							<tr><td><h1 class="about__title">ЖК “БАРКЛИ ГАЛЕРИ”</h1></td></tr>
+							<tr><td class="about__address">Москва, ул. Новый Арбат, 46</td></tr>
+						</tbody>
+					</table>
+					<table class="img" cellpadding="0" cellspacing="0" width="1900" align="center">
+						<tbody>
+							<tr>
+								<td class="img__barkli"></td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="type" cellpadding="0" cellspacing="0" width="900" align="left">
+						<tbody>
+							<tr>
+								<td class="type__title">С камином</td>
+								<td class="type__space"></td>
+								<td class="type__title">Москва-Сити</td>
+								<td class="type__space"></td>
+								<td class="type__title">Вид на парк</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="info" cellpadding="0" cellspacing="0" width="1900" align="center">
+						<tbody>
+							<tr>
+								<td class="info__td" align="left">
+									<table class="info__left" cellpadding="0" cellspacing="0" align="left" width="650">
+										<tbody>
+											<tr><td class="info__left-title">Район</td><td>Замоскоречье</td></tr>
+											<tr><td class="info__left-title">Метро</td><td>Арбатская, Новокузнецкая</td></tr>
+											<tr><td class="info__left-title">Высота потолков</td><td>3,6 м.</td></tr>
+											<tr><td class="info__left-title">Комнаты</td><td>5</td></tr>
+											<tr><td class="info__left-title">Спальни</td><td>3</td></tr>
+											<tr><td class="info__left-title">Количество санузлов</td><td>4</td></tr>
+											<tr><td class="info__left-title">Этаж</td><td>45</td></tr>
+											<tr><td class="info__left-title">Тип отделки</td><td>С мебелью</td></tr>
+											<tr><td class="info__left-title">Инфраструктура</td><td>Бассейн, парк</td></tr>
+											<tr><td class="info__left-title">Консьерж-сервис</td><td>Да</td></tr>
+											<tr><td class="info__left-title">ID</td><td>734874647632</td></tr>
+										</tbody>
+									</table>
+								</td>
+								<td class="info__td">
+									<table class="price" cellpadding="0" cellspacing="0" align="right" width="820">
+										<tbody>
+											<tr><td><img src="/pdf/images/qr.svg" alt="qr" width="193" height="193"></td></tr>
+											<tr><td class="price__num">Петхаусов: 10</td></tr>
+											<tr><td class="price__money-from">Цены от: 122 000 000 &#8381;</td></tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="footer" cellpadding="0" cellspacing="0" width="1900" align="center">
+						<tbody>
+							<tr>
+								<td class="footer__slogan" cellpadding="0" cellspacing="0" align="left">Быть особенным - быть собой.</td>
+								<td class="footer__logo" cellpadding="0" cellspacing="0" align="right"><img src="/pdf/images/logo.svg" width="444"></td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>		
+	</table>
+
+</body>
+</html>
